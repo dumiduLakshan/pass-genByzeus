@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #164b60;
+}
+
+.topic {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.topic span {
+  margin-left: 120px;
+  border-bottom: 3px solid #14b1ff;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 20px;
+  padding: 30px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+/* //selection bouutons  */
+
+section .selection-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .selection-btns .sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+section .selection-btns .sec label {
+  padding: 0 12px;
+}
+.text-output {
+  width: 300px;
+  border: 1px solid white;
+  margin-top: 22px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.text-output input {
+  width: 90%;
+  font-size: 22px;
+  color: black;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding-left: 12px;
+}
+
+.text-output .icon {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-output i {
+  color: #14b1ff;
+  font-size: 23px;
+  padding: 8px;
+}
+
+.selection-btns {
+  margin-top: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+button {
+  width: 70%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b6b93;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding-right: 40px;
+  padding: 10px 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:active {
+  background-color: #14b1ff;
+}
+
+button i {
+  font-size: 20px;
+  color: white;
+  /* padding-left: 50px; */
+}

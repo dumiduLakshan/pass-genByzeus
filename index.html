@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PW GEN- ZEUS</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="topic">
+        <h1>
+          Password genarator by <br />
+          <span>ZEUS</span>
+        </h1>
+      </div>
+
+      <div class="text-output">
+        <input type="text" id="outputField" disabled />
+        <div class="icon" onclick="copyText()">
+          <i class="bx bxs-copy-alt"></i>
+        </div>
+      </div>
+
+      <div class="text-output">
+        <input type="number" id="lengthField" min="5" max="12" />
+      </div>
+      <div class="selection-btns">
+        <div class="sec">
+          <label for="lower">Add lowercase</label>
+          <input type="checkbox" id="lower" />
+        </div>
+        <div class="sec">
+          <label for="upper">Add uppercase</label>
+          <input type="checkbox" id="upper" />
+        </div>
+        <div class="sec">
+          <label for="numberChar">Add number</label>
+          <input type="checkbox" id="numberChar" />
+        </div>
+        <div class="sec">
+          <label for="symbolsChar">Add symbol</label>
+          <input type="checkbox" id="symbolsChar" />
+        </div>
+      </div>
+      <button id="submitBtn" onclick="btnClick()">
+        <i class="bx bxs-label" style="color: #ffffff"></i>Genarate
+      </button>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
